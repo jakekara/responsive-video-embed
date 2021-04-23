@@ -1,0 +1,39 @@
+body {
+  margin: 0px;
+}
+
+.video-max-height {
+  height: 100vh;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+}
+
+.video-max-width {
+  width: 100vw;
+  height: 100vh;
+  max-width: 177.78vh; /* 16:9 */
+  background-color: blue;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 9:16 */
+  height: 0;
+  background-color: gray;
+}
+
+.constrained-video {
+  width: 100% !important;
+  height: 100% !important;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  object-fit: contain;
+  /* height: auto !important; */
+}
