@@ -4,7 +4,7 @@ body {
 
 .video-max-height {
   height: 100vh;
-  background-color: green;
+  background-color: green; /* Use black. Green is just for demo */
   display: flex;
   justify-content: center;
 }
@@ -13,7 +13,7 @@ body {
   width: 100vw;
   height: 100vh;
   max-width: 177.78vh; /* 16:9 */
-  background-color: blue;
+  background-color: blue; /* Use black. Blue is just for demo */
 
   display: flex;
   justify-content: center;
